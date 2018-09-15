@@ -1,11 +1,13 @@
 <?php
 
-namespace App\Http\Requests\API;
+namespace App\Http\Requests;
 
-use App\Models\RamoNegocio;
+use Illuminate\Foundation\Http\FormRequest;
+use App\Models\TemaEstabelecimento;
 
-class CreateRamoNegocioAPIRequest extends MyAPIRequest
+class CreateTemaEstabelecimentoRequest extends FormRequest
 {
+
     /**
      * Determine if the user is authorized to make this request.
      *
@@ -23,6 +25,6 @@ class CreateRamoNegocioAPIRequest extends MyAPIRequest
      */
     public function rules()
     {
-        return RamoNegocio::$rules;
+        return TemaEstabelecimento::$rules;
     }
 }

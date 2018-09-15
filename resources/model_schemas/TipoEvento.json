@@ -1,0 +1,120 @@
+[
+    {
+        "name": "id",
+        "dbType": "bigInteger,true",
+        "htmlType": null,
+        "validations": null,
+        "searchable": false,
+        "fillable": false,
+        "primary": true,
+        "inForm": false,
+        "inIndex": false
+    },
+    {
+        "name": "descricao",
+        "dbType": "string",
+        "htmlType": "text",
+        "validations": null,
+        "searchable": true,
+        "fillable": true,
+        "primary": false,
+        "inForm": true,
+        "inIndex": true
+    },
+    {
+        "name": "ativo",
+        "dbType": "boolean",
+        "htmlType": "checkbox,1",
+        "validations": null,
+        "searchable": true,
+        "fillable": true,
+        "primary": false,
+        "inForm": true,
+        "inIndex": true
+    },
+    {
+        "name": "created_at",
+        "dbType": "datetime",
+        "htmlType": "date",
+        "validations": null,
+        "searchable": false,
+        "fillable": false,
+        "primary": false,
+        "inForm": false,
+        "inIndex": false
+    },
+    {
+        "name": "updated_at",
+        "dbType": "datetime",
+        "htmlType": "date",
+        "validations": null,
+        "searchable": false,
+        "fillable": false,
+        "primary": false,
+        "inForm": false,
+        "inIndex": false
+    },
+    {
+        "name": "deleted_at",
+        "dbType": "datetime",
+        "htmlType": "date",
+        "validations": null,
+        "searchable": false,
+        "fillable": false,
+        "primary": false,
+        "inForm": false,
+        "inIndex": false
+    },
+    {
+        "type": "relation",
+        "relation": "mtm,,anuncianteramonegocio"
+    },
+    {
+        "type": "relation",
+        "relation": "mtm,,anunciantetemaestabelecimento"
+    },
+    {
+        "type": "relation",
+        "relation": "mtm,Anuncio,anunciantetipoevento"
+    },
+    {
+        "type": "relation",
+        "relation": "mtm,,anuncioavaliacao"
+    },
+    {
+        "type": "relation",
+        "relation": "mtm,Anuncio,anuncioprecomedioevento"
+    },
+    {
+        "type": "relation",
+        "relation": "mtm,,anunciotemaestabelecimento"
+    },
+    {
+        "type": "relation",
+        "relation": "mtm,,consumidoropcaoculinaria"
+    },
+    {
+        "type": "relation",
+        "relation": "mtm,,consumidorpalavrachave"
+    },
+    {
+        "type": "relation",
+        "relation": "1tm,Evento"
+    },
+    {
+        "type": "relation",
+        "relation": "mtm,,eventopublicoalvo"
+    },
+    {
+        "type": "relation",
+        "relation": "mtm,,eventoservico"
+    },
+    {
+        "type": "relation",
+        "relation": "mtm,,orcamentomensagens"
+    },
+    {
+        "type": "relation",
+        "relation": "1tm,Tipoeventoramonegocio"
+    }
+]

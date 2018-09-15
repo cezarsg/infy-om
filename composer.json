@@ -11,7 +11,8 @@
         "laravel/tinker": "^1.0",
         "infyomlabs/laravel-generator": "5.6.x-dev",
         "laravelcollective/html": "^5.6.0",
-        "infyomlabs/adminlte-templates": "5.6.x-dev",        
+        "infyomlabs/adminlte-templates": "5.6.x-dev",
+        "infyomlabs/generator-builder": "dev-master",
         "doctrine/dbal": "~2.3"
     },
     "require-dev": {
