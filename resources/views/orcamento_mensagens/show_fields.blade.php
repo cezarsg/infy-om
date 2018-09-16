@@ -22,10 +22,10 @@
     <p>{!! $orcamentoMensagens->idPergunta !!}</p>
 </div>
 
-<!-- Dtinclusao Field -->
+<!-- Dt. Inclusão Field -->
 <div class="form-group">
-    {!! Form::label('dtinclusao', 'Dtinclusao:') !!}
-    <p>{!! $orcamentoMensagens->dtinclusao !!}</p>
+    {!! Form::label('Dt. Inclusão', 'Dt. Inclusão:') !!}
+    <p>{!! $orcamentoMensagens->Dt. Inclusão !!}</p>
 </div>
 
 <!-- Mensagem Field -->

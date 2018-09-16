@@ -2,18 +2,18 @@
     <thead>
         <tr>
             <th>Idconsumidor</th>
-        <th>Dtinclusao</th>
+        <th>Dt. Inclusão</th>
         <th>Observacao</th>
         <th>Idstatus</th>
         <th>Idusuario</th>
-            <th colspan="3">Action</th>
+            <th colspan="3">Ação</th>
         </tr>
     </thead>
     <tbody>
     @foreach($consumidorHistoricos as $consumidorHistorico)
         <tr>
             <td>{!! $consumidorHistorico->idconsumidor !!}</td>
-            <td>{!! $consumidorHistorico->dtinclusao !!}</td>
+            <td>{!! $consumidorHistorico->Dt. Inclusão !!}</td>
             <td>{!! $consumidorHistorico->observacao !!}</td>
             <td>{!! $consumidorHistorico->idstatus !!}</td>
             <td>{!! $consumidorHistorico->idusuario !!}</td>

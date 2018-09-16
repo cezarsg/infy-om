@@ -4,10 +4,10 @@
     <p>{!! $anunciantehistorico->idanunciante !!}</p>
 </div>
 
-<!-- Dtinclusao Field -->
+<!-- Dt. Inclusão Field -->
 <div class="form-group">
-    {!! Form::label('dtinclusao', 'Dtinclusao:') !!}
-    <p>{!! $anunciantehistorico->dtinclusao !!}</p>
+    {!! Form::label('Dt. Inclusão', 'Dt. Inclusão:') !!}
+    <p>{!! $anunciantehistorico->Dt. Inclusão !!}</p>
 </div>
 
 <!-- Observacao Field -->

@@ -3,7 +3,7 @@
         <tr>
             <th>Descricao</th>
         <th>Ativo</th>
-            <th colspan="3">Action</th>
+            <th colspan="3">Ação</th>
         </tr>
     </thead>
     <tbody>

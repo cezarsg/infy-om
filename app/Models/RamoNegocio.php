@@ -70,43 +70,5 @@ class RamoNegocio extends Model
         
     ];
 
-    /**
-     * @return \Illuminate\Database\Eloquent\Relations\BelongsToMany
-     **/
-    public function anuncios()
-    {
-        return $this->belongsToMany(\App\Models\Anuncio::class, 'anuncianteramonegocio');
-    }
 
-    /**
-     * @return \Illuminate\Database\Eloquent\Relations\HasMany
-     **/
-    public function anuncios()
-    {
-        return $this->hasMany(\App\Models\Anuncio::class);
-    }
-
-    /**
-     * @return \Illuminate\Database\Eloquent\Relations\BelongsToMany
-     **/
-    public function eventos()
-    {
-        return $this->belongsToMany(\App\Models\Evento::class, 'eventoservico');
-    }
-
-    /**
-     * @return \Illuminate\Database\Eloquent\Relations\HasMany
-     **/
-    public function orcamentos()
-    {
-        return $this->hasMany(\App\Models\Orcamento::class);
-    }
-
-    /**
-     * @return \Illuminate\Database\Eloquent\Relations\HasMany
-     **/
-    public function tipoeventoramonegocios()
-    {
-        return $this->hasMany(\App\Models\Tipoeventoramonegocio::class);
-    }
 }

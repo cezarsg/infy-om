@@ -4,10 +4,10 @@
             <th>Idorcamento</th>
         <th>Tipomensagem</th>
         <th>Idpergunta</th>
-        <th>Dtinclusao</th>
+        <th>Dt. Inclusão</th>
         <th>Mensagem</th>
         <th>Incluidapor</th>
-            <th colspan="3">Action</th>
+            <th colspan="3">Ação</th>
         </tr>
     </thead>
     <tbody>
@@ -16,7 +16,7 @@
             <td>{!! $orcamentoMensagens->idorcamento !!}</td>
             <td>{!! $orcamentoMensagens->tipomensagem !!}</td>
             <td>{!! $orcamentoMensagens->idPergunta !!}</td>
-            <td>{!! $orcamentoMensagens->dtinclusao !!}</td>
+            <td>{!! $orcamentoMensagens->Dt. Inclusão !!}</td>
             <td>{!! $orcamentoMensagens->mensagem !!}</td>
             <td>{!! $orcamentoMensagens->incluidapor !!}</td>
             <td>

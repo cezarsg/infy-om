@@ -3,7 +3,7 @@
         <tr>
             <th>Idconsumidor</th>
         <th>Idopcaoculinaria</th>
-            <th colspan="3">Action</th>
+            <th colspan="3">Ação</th>
         </tr>
     </thead>
     <tbody>

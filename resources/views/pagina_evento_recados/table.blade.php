@@ -4,9 +4,9 @@
             <th>Idpagina</th>
         <th>Nome</th>
         <th>Mensagem</th>
-        <th>Dtinclusao</th>
+        <th>Dt. Inclusão</th>
         <th>Idaprovado</th>
-            <th colspan="3">Action</th>
+            <th colspan="3">Ação</th>
         </tr>
     </thead>
     <tbody>
@@ -15,7 +15,7 @@
             <td>{!! $paginaEventoRecado->idpagina !!}</td>
             <td>{!! $paginaEventoRecado->nome !!}</td>
             <td>{!! $paginaEventoRecado->mensagem !!}</td>
-            <td>{!! $paginaEventoRecado->dtinclusao !!}</td>
+            <td>{!! $paginaEventoRecado->Dt. Inclusão !!}</td>
             <td>{!! $paginaEventoRecado->idaprovado !!}</td>
             <td>
                 {!! Form::open(['route' => ['paginaEventoRecados.destroy', $paginaEventoRecado->id], 'method' => 'delete']) !!}

@@ -3,7 +3,7 @@
         <tr>
             <th>Idpagina</th>
         <th>Video</th>
-            <th colspan="3">Action</th>
+            <th colspan="3">Ação</th>
         </tr>
     </thead>
     <tbody>

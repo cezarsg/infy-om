@@ -40,10 +40,10 @@
     {!! Form::text('dsevento', null, ['class' => 'form-control']) !!}
 </div>
 
-<!-- Dtinclusao Field -->
+<!-- Dt. Inclusão Field -->
 <div class="form-group col-sm-6">
-    {!! Form::label('dtinclusao', 'Dtinclusao:') !!}
-    {!! Form::date('dtinclusao', null, ['class' => 'form-control']) !!}
+    {!! Form::label('Dt. Inclusão', 'Dt. Inclusão:') !!}
+    {!! Form::date('Dt. Inclusão', null, ['class' => 'form-control']) !!}
 </div>
 
 <!-- Ativo Field -->

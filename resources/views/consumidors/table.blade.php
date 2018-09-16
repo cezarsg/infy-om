@@ -7,11 +7,11 @@
         <th>Dtnascimento</th>
         <th>Idcidade</th>
         <th>Fotodestaquecaminho</th>
-        <th>Dtinclusao</th>
-        <th>Dtalteracao</th>
+        <th>Dt. Inclusão</th>
+        <th>Dt. Alteração</th>
         <th>Idusuario</th>
         <th>Ativo</th>
-            <th colspan="3">Action</th>
+            <th colspan="3">Ação</th>
         </tr>
     </thead>
     <tbody>
@@ -23,8 +23,8 @@
             <td>{!! $consumidor->dtnascimento !!}</td>
             <td>{!! $consumidor->idcidade !!}</td>
             <td>{!! $consumidor->fotodestaquecaminho !!}</td>
-            <td>{!! $consumidor->dtinclusao !!}</td>
-            <td>{!! $consumidor->dtalteracao !!}</td>
+            <td>{!! $consumidor->Dt. Inclusão !!}</td>
+            <td>{!! $consumidor->Dt. Alteração !!}</td>
             <td>{!! $consumidor->idusuario !!}</td>
             <td>{!! $consumidor->ativo !!}</td>
             <td>

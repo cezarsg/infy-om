@@ -7,10 +7,10 @@
         <th>Idevento</th>
         <th>Idanuncio</th>
         <th>Dtvalidade</th>
-        <th>Dtinclusao</th>
+        <th>Dt. Inclusão</th>
         <th>Dtresposta</th>
-        <th>Dtalteracao</th>
-            <th colspan="3">Action</th>
+        <th>Dt. Alteração</th>
+            <th colspan="3">Ação</th>
         </tr>
     </thead>
     <tbody>
@@ -22,9 +22,9 @@
             <td>{!! $orcamento->idevento !!}</td>
             <td>{!! $orcamento->idanuncio !!}</td>
             <td>{!! $orcamento->dtvalidade !!}</td>
-            <td>{!! $orcamento->dtinclusao !!}</td>
+            <td>{!! $orcamento->Dt. Inclusão !!}</td>
             <td>{!! $orcamento->dtresposta !!}</td>
-            <td>{!! $orcamento->dtalteracao !!}</td>
+            <td>{!! $orcamento->Dt. Alteração !!}</td>
             <td>
                 {!! Form::open(['route' => ['orcamentos.destroy', $orcamento->id], 'method' => 'delete']) !!}
                 <div class='btn-group'>

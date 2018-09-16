@@ -3,7 +3,7 @@
         <tr>
             <th>Idevento</th>
         <th>Idcidade</th>
-            <th colspan="3">Action</th>
+            <th colspan="3">Ação</th>
         </tr>
     </thead>
     <tbody>

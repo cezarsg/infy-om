@@ -2,18 +2,18 @@
     <thead>
         <tr>
             <th>Idanunciante</th>
-        <th>Dtinclusao</th>
+        <th>Dt. Inclusão</th>
         <th>Observacao</th>
         <th>Idstatus</th>
         <th>Idusuario</th>
-            <th colspan="3">Action</th>
+            <th colspan="3">Ação</th>
         </tr>
     </thead>
     <tbody>
     @foreach($anunciantehistoricos as $anunciantehistorico)
         <tr>
             <td>{!! $anunciantehistorico->idanunciante !!}</td>
-            <td>{!! $anunciantehistorico->dtinclusao !!}</td>
+            <td>{!! $anunciantehistorico->Dt. Inclusão !!}</td>
             <td>{!! $anunciantehistorico->observacao !!}</td>
             <td>{!! $anunciantehistorico->idstatus !!}</td>
             <td>{!! $anunciantehistorico->idusuario !!}</td>

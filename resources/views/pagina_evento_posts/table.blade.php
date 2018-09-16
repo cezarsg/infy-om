@@ -4,8 +4,8 @@
             <th>Idpagina</th>
         <th>Titulo</th>
         <th>Conteudo</th>
-        <th>Dtinclusao</th>
-            <th colspan="3">Action</th>
+        <th>Dt. Inclusão</th>
+            <th colspan="3">Ação</th>
         </tr>
     </thead>
     <tbody>
@@ -14,7 +14,7 @@
             <td>{!! $paginaEventoPost->idpagina !!}</td>
             <td>{!! $paginaEventoPost->titulo !!}</td>
             <td>{!! $paginaEventoPost->conteudo !!}</td>
-            <td>{!! $paginaEventoPost->dtinclusao !!}</td>
+            <td>{!! $paginaEventoPost->Dt. Inclusão !!}</td>
             <td>
                 {!! Form::open(['route' => ['paginaEventoPosts.destroy', $paginaEventoPost->id], 'method' => 'delete']) !!}
                 <div class='btn-group'>

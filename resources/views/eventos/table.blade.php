@@ -30,9 +30,9 @@
         <th>Bairro</th>
         <th>Cidade</th>
         <th>Estado</th>
-        <th>Dtinclusao</th>
-        <th>Dtalteracao</th>
-            <th colspan="3">Action</th>
+        <th>Dt. Inclusão</th>
+        <th>Dt. Alteração</th>
+            <th colspan="3">Ação</th>
         </tr>
     </thead>
     <tbody>
@@ -67,8 +67,8 @@
             <td>{!! $evento->bairro !!}</td>
             <td>{!! $evento->cidade !!}</td>
             <td>{!! $evento->estado !!}</td>
-            <td>{!! $evento->dtinclusao !!}</td>
-            <td>{!! $evento->dtalteracao !!}</td>
+            <td>{!! $evento->Dt. Inclusão !!}</td>
+            <td>{!! $evento->Dt. Alteração !!}</td>
             <td>
                 {!! Form::open(['route' => ['eventos.destroy', $evento->id], 'method' => 'delete']) !!}
                 <div class='btn-group'>

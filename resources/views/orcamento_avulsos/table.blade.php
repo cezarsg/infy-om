@@ -8,9 +8,9 @@
         <th>Dtevento</th>
         <th>Localizacao</th>
         <th>Dsevento</th>
-        <th>Dtinclusao</th>
+        <th>Dt. Inclusão</th>
         <th>Ativo</th>
-            <th colspan="3">Action</th>
+            <th colspan="3">Ação</th>
         </tr>
     </thead>
     <tbody>
@@ -23,7 +23,7 @@
             <td>{!! $orcamentoAvulso->dtevento !!}</td>
             <td>{!! $orcamentoAvulso->localizacao !!}</td>
             <td>{!! $orcamentoAvulso->dsevento !!}</td>
-            <td>{!! $orcamentoAvulso->dtinclusao !!}</td>
+            <td>{!! $orcamentoAvulso->Dt. Inclusão !!}</td>
             <td>{!! $orcamentoAvulso->ativo !!}</td>
             <td>
                 {!! Form::open(['route' => ['orcamentoAvulsos.destroy', $orcamentoAvulso->id], 'method' => 'delete']) !!}

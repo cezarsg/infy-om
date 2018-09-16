@@ -5,7 +5,7 @@
         <th>Idtipoevento</th>
         <th>Precomediocobrado</th>
         <th>Precomediocobradoportipo</th>
-            <th colspan="3">Action</th>
+            <th colspan="3">Ação</th>
         </tr>
     </thead>
     <tbody>

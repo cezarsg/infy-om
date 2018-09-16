@@ -16,10 +16,10 @@
     <p>{!! $paginaEventoRecado->mensagem !!}</p>
 </div>
 
-<!-- Dtinclusao Field -->
+<!-- Dt. Inclusão Field -->
 <div class="form-group">
-    {!! Form::label('dtinclusao', 'Dtinclusao:') !!}
-    <p>{!! $paginaEventoRecado->dtinclusao !!}</p>
+    {!! Form::label('Dt. Inclusão', 'Dt. Inclusão:') !!}
+    <p>{!! $paginaEventoRecado->Dt. Inclusão !!}</p>
 </div>
 
 <!-- Idaprovado Field -->

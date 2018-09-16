@@ -2,8 +2,8 @@
     <thead>
         <tr>
             <th>Idanunciante</th>
-        <th>Dtinclusao</th>
-        <th>Dtalteracao</th>
+        <th>Dt. Inclusão</th>
+        <th>Dt. Alteração</th>
         <th>Idstatus</th>
         <th>Idramonegocio</th>
         <th>Estabelecimentoproprio</th>
@@ -12,15 +12,15 @@
         <th>Fotodestaquecaminho</th>
         <th>Score</th>
         <th>Idusuario</th>
-            <th colspan="3">Action</th>
+            <th colspan="3">Ação</th>
         </tr>
     </thead>
     <tbody>
     @foreach($anuncios as $anuncio)
         <tr>
             <td>{!! $anuncio->idanunciante !!}</td>
-            <td>{!! $anuncio->dtinclusao !!}</td>
-            <td>{!! $anuncio->dtalteracao !!}</td>
+            <td>{!! $anuncio->Dt. Inclusão !!}</td>
+            <td>{!! $anuncio->Dt. Alteração !!}</td>
             <td>{!! $anuncio->idstatus !!}</td>
             <td>{!! $anuncio->idramonegocio !!}</td>
             <td>{!! $anuncio->estabelecimentoproprio !!}</td>

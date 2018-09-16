@@ -16,10 +16,10 @@
     <p>{!! $paginaEventoPost->conteudo !!}</p>
 </div>
 
-<!-- Dtinclusao Field -->
+<!-- Dt. Inclusão Field -->
 <div class="form-group">
-    {!! Form::label('dtinclusao', 'Dtinclusao:') !!}
-    <p>{!! $paginaEventoPost->dtinclusao !!}</p>
+    {!! Form::label('Dt. Inclusão', 'Dt. Inclusão:') !!}
+    <p>{!! $paginaEventoPost->Dt. Inclusão !!}</p>
 </div>
 
 <!-- Created At Field -->

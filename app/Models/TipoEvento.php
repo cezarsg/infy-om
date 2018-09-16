@@ -63,35 +63,4 @@ class TipoEvento extends Model
         
     ];
 
-    /**
-     * @return \Illuminate\Database\Eloquent\Relations\BelongsToMany
-     **/
-    public function anuncios()
-    {
-        return $this->belongsToMany(\App\Models\Anuncio::class, 'anunciantetipoevento');
-    }
-
-    /**
-     * @return \Illuminate\Database\Eloquent\Relations\BelongsToMany
-     **/
-    public function anuncios()
-    {
-        return $this->belongsToMany(\App\Models\Anuncio::class, 'anuncioprecomedioevento');
-    }
-
-    /**
-     * @return \Illuminate\Database\Eloquent\Relations\HasMany
-     **/
-    public function eventos()
-    {
-        return $this->hasMany(\App\Models\Evento::class);
-    }
-
-    /**
-     * @return \Illuminate\Database\Eloquent\Relations\HasMany
-     **/
-    public function tipoeventoramonegocios()
-    {
-        return $this->hasMany(\App\Models\Tipoeventoramonegocio::class);
-    }
 }

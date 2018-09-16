@@ -22,10 +22,10 @@
     <p>{!! $anuncioAvaliacao->idusuario !!}</p>
 </div>
 
-<!-- Dtinclusao Field -->
+<!-- Dt. Inclusão Field -->
 <div class="form-group">
-    {!! Form::label('dtinclusao', 'Dtinclusao:') !!}
-    <p>{!! $anuncioAvaliacao->dtinclusao !!}</p>
+    {!! Form::label('Dt. Inclusão', 'Dt. Inclusão:') !!}
+    <p>{!! $anuncioAvaliacao->Dt. Inclusão !!}</p>
 </div>
 
 <!-- Created At Field -->

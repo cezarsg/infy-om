@@ -40,10 +40,10 @@
     <p>{!! $orcamento->dtvalidade !!}</p>
 </div>
 
-<!-- Dtinclusao Field -->
+<!-- Dt. Inclusão Field -->
 <div class="form-group">
-    {!! Form::label('dtinclusao', 'Dtinclusao:') !!}
-    <p>{!! $orcamento->dtinclusao !!}</p>
+    {!! Form::label('Dt. Inclusão', 'Dt. Inclusão:') !!}
+    <p>{!! $orcamento->Dt. Inclusão !!}</p>
 </div>
 
 <!-- Dtresposta Field -->
@@ -52,10 +52,10 @@
     <p>{!! $orcamento->dtresposta !!}</p>
 </div>
 
-<!-- Dtalteracao Field -->
+<!-- Dt. Alteração Field -->
 <div class="form-group">
-    {!! Form::label('dtalteracao', 'Dtalteracao:') !!}
-    <p>{!! $orcamento->dtalteracao !!}</p>
+    {!! Form::label('Dt. Alteração', 'Dt. Alteração:') !!}
+    <p>{!! $orcamento->Dt. Alteração !!}</p>
 </div>
 
 <!-- Created At Field -->

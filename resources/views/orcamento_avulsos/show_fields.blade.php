@@ -46,10 +46,10 @@
     <p>{!! $orcamentoAvulso->dsevento !!}</p>
 </div>
 
-<!-- Dtinclusao Field -->
+<!-- Dt. Inclusão Field -->
 <div class="form-group">
-    {!! Form::label('dtinclusao', 'Dtinclusao:') !!}
-    <p>{!! $orcamentoAvulso->dtinclusao !!}</p>
+    {!! Form::label('Dt. Inclusão', 'Dt. Inclusão:') !!}
+    <p>{!! $orcamentoAvulso->Dt. Inclusão !!}</p>
 </div>
 
 <!-- Ativo Field -->

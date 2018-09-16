@@ -5,8 +5,8 @@
         <th>Nrestrelas</th>
         <th>Observacao</th>
         <th>Idusuario</th>
-        <th>Dtinclusao</th>
-            <th colspan="3">Action</th>
+        <th>Dt. Inclusão</th>
+            <th colspan="3">Ação</th>
         </tr>
     </thead>
     <tbody>
@@ -16,7 +16,7 @@
             <td>{!! $anuncioAvaliacao->nrestrelas !!}</td>
             <td>{!! $anuncioAvaliacao->observacao !!}</td>
             <td>{!! $anuncioAvaliacao->idusuario !!}</td>
-            <td>{!! $anuncioAvaliacao->dtinclusao !!}</td>
+            <td>{!! $anuncioAvaliacao->Dt. Inclusão !!}</td>
             <td>
                 {!! Form::open(['route' => ['anuncioAvaliacaos.destroy', $anuncioAvaliacao->id], 'method' => 'delete']) !!}
                 <div class='btn-group'>

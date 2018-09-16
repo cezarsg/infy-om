@@ -112,16 +112,16 @@
     <p>{!! $anunciante->idusuarioanunciante !!}</p>
 </div>
 
-<!-- Dtinclusao Field -->
+<!-- Dt. Inclusão Field -->
 <div class="form-group">
-    {!! Form::label('dtinclusao', 'Dtinclusao:') !!}
-    <p>{!! $anunciante->dtinclusao !!}</p>
+    {!! Form::label('Dt. Inclusão', 'Dt. Inclusão:') !!}
+    <p>{!! $anunciante->Dt. Inclusão !!}</p>
 </div>
 
-<!-- Dtalteracao Field -->
+<!-- Dt. Alteração Field -->
 <div class="form-group">
-    {!! Form::label('dtalteracao', 'Dtalteracao:') !!}
-    <p>{!! $anunciante->dtalteracao !!}</p>
+    {!! Form::label('Dt. Alteração', 'Dt. Alteração:') !!}
+    <p>{!! $anunciante->Dt. Alteração !!}</p>
 </div>
 
 <!-- Ativo Field -->

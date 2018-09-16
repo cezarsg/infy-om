@@ -178,16 +178,16 @@
     <p>{!! $evento->estado !!}</p>
 </div>
 
-<!-- Dtinclusao Field -->
+<!-- Dt. Inclusão Field -->
 <div class="form-group">
-    {!! Form::label('dtinclusao', 'Dtinclusao:') !!}
-    <p>{!! $evento->dtinclusao !!}</p>
+    {!! Form::label('Dt. Inclusão', 'Dt. Inclusão:') !!}
+    <p>{!! $evento->Dt. Inclusão !!}</p>
 </div>
 
-<!-- Dtalteracao Field -->
+<!-- Dt. Alteração Field -->
 <div class="form-group">
-    {!! Form::label('dtalteracao', 'Dtalteracao:') !!}
-    <p>{!! $evento->dtalteracao !!}</p>
+    {!! Form::label('Dt. Alteração', 'Dt. Alteração:') !!}
+    <p>{!! $evento->Dt. Alteração !!}</p>
 </div>
 
 <!-- Created At Field -->

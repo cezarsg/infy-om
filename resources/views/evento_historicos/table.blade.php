@@ -2,18 +2,18 @@
     <thead>
         <tr>
             <th>Idevento</th>
-        <th>Dtinclusao</th>
+        <th>Dt. Inclusão</th>
         <th>Observacao</th>
         <th>Idstatus</th>
         <th>Idusuario</th>
-            <th colspan="3">Action</th>
+            <th colspan="3">Ação</th>
         </tr>
     </thead>
     <tbody>
     @foreach($eventoHistoricos as $eventoHistorico)
         <tr>
             <td>{!! $eventoHistorico->idevento !!}</td>
-            <td>{!! $eventoHistorico->dtinclusao !!}</td>
+            <td>{!! $eventoHistorico->Dt. Inclusão !!}</td>
             <td>{!! $eventoHistorico->observacao !!}</td>
             <td>{!! $eventoHistorico->idstatus !!}</td>
             <td>{!! $eventoHistorico->idusuario !!}</td>

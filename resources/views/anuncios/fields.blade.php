@@ -4,16 +4,16 @@
     {!! Form::number('idanunciante', null, ['class' => 'form-control']) !!}
 </div>
 
-<!-- Dtinclusao Field -->
+<!-- Dt. Inclusão Field -->
 <div class="form-group col-sm-6">
-    {!! Form::label('dtinclusao', 'Dtinclusao:') !!}
-    {!! Form::date('dtinclusao', null, ['class' => 'form-control']) !!}
+    {!! Form::label('Dt. Inclusão', 'Dt. Inclusão:') !!}
+    {!! Form::date('Dt. Inclusão', null, ['class' => 'form-control']) !!}
 </div>
 
-<!-- Dtalteracao Field -->
+<!-- Dt. Alteração Field -->
 <div class="form-group col-sm-6">
-    {!! Form::label('dtalteracao', 'Dtalteracao:') !!}
-    {!! Form::date('dtalteracao', null, ['class' => 'form-control']) !!}
+    {!! Form::label('Dt. Alteração', 'Dt. Alteração:') !!}
+    {!! Form::date('Dt. Alteração', null, ['class' => 'form-control']) !!}
 </div>
 
 <!-- Idstatus Field -->

@@ -40,16 +40,16 @@
     <p>{!! $consumidor->fotodestaquecaminho !!}</p>
 </div>
 
-<!-- Dtinclusao Field -->
+<!-- Dt. Inclusão Field -->
 <div class="form-group">
-    {!! Form::label('dtinclusao', 'Dtinclusao:') !!}
-    <p>{!! $consumidor->dtinclusao !!}</p>
+    {!! Form::label('Dt. Inclusão', 'Dt. Inclusão:') !!}
+    <p>{!! $consumidor->Dt. Inclusão !!}</p>
 </div>
 
-<!-- Dtalteracao Field -->
+<!-- Dt. Alteração Field -->
 <div class="form-group">
-    {!! Form::label('dtalteracao', 'Dtalteracao:') !!}
-    <p>{!! $consumidor->dtalteracao !!}</p>
+    {!! Form::label('Dt. Alteração', 'Dt. Alteração:') !!}
+    <p>{!! $consumidor->Dt. Alteração !!}</p>
 </div>
 
 <!-- Idusuario Field -->

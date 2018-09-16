@@ -19,11 +19,11 @@
         <th>Twitter</th>
         <th>Pinterest</th>
         <th>Idusuarioanunciante</th>
-        <th>Dtinclusao</th>
-        <th>Dtalteracao</th>
+        <th>Dt. Inclusão</th>
+        <th>Dt. Alteração</th>
         <th>Ativo</th>
         <th>Aprovado</th>
-            <th colspan="3">Action</th>
+            <th colspan="3">Ação</th>
         </tr>
     </thead>
     <tbody>
@@ -47,8 +47,8 @@
             <td>{!! $anunciante->twitter !!}</td>
             <td>{!! $anunciante->pinterest !!}</td>
             <td>{!! $anunciante->idusuarioanunciante !!}</td>
-            <td>{!! $anunciante->dtinclusao !!}</td>
-            <td>{!! $anunciante->dtalteracao !!}</td>
+            <td>{!! $anunciante->Dt. Inclusão !!}</td>
+            <td>{!! $anunciante->Dt. Alteração !!}</td>
             <td>{!! $anunciante->ativo !!}</td>
             <td>{!! $anunciante->aprovado !!}</td>
             <td>

@@ -200,27 +200,11 @@ class Anuncio extends Model
     }
 
     /**
-     * @return \Illuminate\Database\Eloquent\Relations\BelongsToMany
-     **/
-    public function tipoeventos()
-    {
-        return $this->belongsToMany(\App\Models\Tipoevento::class, 'anuncioprecomedioevento');
-    }
-
-    /**
      * @return \Illuminate\Database\Eloquent\Relations\HasMany
      **/
     public function anunciopremios()
     {
         return $this->hasMany(\App\Models\Anunciopremio::class);
-    }
-
-    /**
-     * @return \Illuminate\Database\Eloquent\Relations\BelongsToMany
-     **/
-    public function temaestabelecimentos()
-    {
-        return $this->belongsToMany(\App\Models\Temaestabelecimento::class, 'anunciotemaestabelecimento');
     }
 
     /**
