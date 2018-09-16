@@ -8,7 +8,7 @@ use Illuminate\Database\Eloquent\SoftDeletes;
 /**
  * Class RamoNegocio
  * @package App\Models
- * @version September 15, 2018, 4:33 am UTC
+ * @version September 16, 2018, 12:04 am UTC
  *
  * @property \Illuminate\Database\Eloquent\Collection anuncianteramonegocio
  * @property \Illuminate\Database\Eloquent\Collection anunciantetemaestabelecimento

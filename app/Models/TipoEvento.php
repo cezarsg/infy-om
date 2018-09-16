@@ -8,7 +8,7 @@ use Illuminate\Database\Eloquent\SoftDeletes;
 /**
  * Class TipoEvento
  * @package App\Models
- * @version September 15, 2018, 4:02 am UTC
+ * @version September 16, 2018, 12:05 am UTC
  *
  * @property \Illuminate\Database\Eloquent\Collection anuncianteramonegocio
  * @property \Illuminate\Database\Eloquent\Collection anunciantetemaestabelecimento
@@ -63,4 +63,35 @@ class TipoEvento extends Model
         
     ];
 
+    /**
+     * @return \Illuminate\Database\Eloquent\Relations\BelongsToMany
+     **/
+    public function anuncios()
+    {
+        return $this->belongsToMany(\App\Models\Anuncio::class, 'anunciantetipoevento');
+    }
+
+    /**
+     * @return \Illuminate\Database\Eloquent\Relations\BelongsToMany
+     **/
+    public function anuncios()
+    {
+        return $this->belongsToMany(\App\Models\Anuncio::class, 'anuncioprecomedioevento');
+    }
+
+    /**
+     * @return \Illuminate\Database\Eloquent\Relations\HasMany
+     **/
+    public function eventos()
+    {
+        return $this->hasMany(\App\Models\Evento::class);
+    }
+
+    /**
+     * @return \Illuminate\Database\Eloquent\Relations\HasMany
+     **/
+    public function tipoeventoramonegocios()
+    {
+        return $this->hasMany(\App\Models\Tipoeventoramonegocio::class);
+    }
 }

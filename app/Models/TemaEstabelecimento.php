@@ -8,10 +8,22 @@ use Illuminate\Database\Eloquent\SoftDeletes;
 /**
  * Class TemaEstabelecimento
  * @package App\Models
- * @version September 15, 2018, 4:49 am UTC
+ * @version September 16, 2018, 12:05 am UTC
  *
+ * @property \Illuminate\Database\Eloquent\Collection anuncianteramonegocio
+ * @property \Illuminate\Database\Eloquent\Collection anunciantetemaestabelecimento
+ * @property \Illuminate\Database\Eloquent\Collection anunciantetipoevento
+ * @property \Illuminate\Database\Eloquent\Collection anuncioavaliacao
+ * @property \Illuminate\Database\Eloquent\Collection anuncioprecomedioevento
+ * @property \Illuminate\Database\Eloquent\Collection anunciotemaestabelecimento
+ * @property \Illuminate\Database\Eloquent\Collection consumidoropcaoculinaria
+ * @property \Illuminate\Database\Eloquent\Collection consumidorpalavrachave
+ * @property \Illuminate\Database\Eloquent\Collection Evento
+ * @property \Illuminate\Database\Eloquent\Collection eventopublicoalvo
+ * @property \Illuminate\Database\Eloquent\Collection eventoservico
+ * @property \Illuminate\Database\Eloquent\Collection orcamentomensagens
  * @property string descricao
- * @property numeric ativo
+ * @property boolean ativo
  */
 class TemaEstabelecimento extends Model
 {
@@ -19,6 +31,9 @@ class TemaEstabelecimento extends Model
 
     public $table = 'temaestabelecimento';
     
+    const CREATED_AT = 'created_at';
+    const UPDATED_AT = 'updated_at';
+
 
     protected $dates = ['deleted_at'];
 
@@ -34,8 +49,8 @@ class TemaEstabelecimento extends Model
      * @var array
      */
     protected $casts = [
-        'id' => 'integer',
-        'descricao' => 'string'
+        'descricao' => 'string',
+        'ativo' => 'boolean'
     ];
 
     /**
@@ -44,8 +59,30 @@ class TemaEstabelecimento extends Model
      * @var array
      */
     public static $rules = [
-        'descricao' => 'required'
+        
     ];
 
-    
+    /**
+     * @return \Illuminate\Database\Eloquent\Relations\BelongsToMany
+     **/
+    public function anuncios()
+    {
+        return $this->belongsToMany(\App\Models\Anuncio::class, 'anunciantetemaestabelecimento');
+    }
+
+    /**
+     * @return \Illuminate\Database\Eloquent\Relations\BelongsToMany
+     **/
+    public function anuncios()
+    {
+        return $this->belongsToMany(\App\Models\Anuncio::class, 'anunciotemaestabelecimento');
+    }
+
+    /**
+     * @return \Illuminate\Database\Eloquent\Relations\HasMany
+     **/
+    public function eventos()
+    {
+        return $this->hasMany(\App\Models\Evento::class);
+    }
 }

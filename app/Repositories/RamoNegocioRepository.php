@@ -8,7 +8,7 @@ use InfyOm\Generator\Common\BaseRepository;
 /**
  * Class RamoNegocioRepository
  * @package App\Repositories
- * @version September 15, 2018, 4:33 am UTC
+ * @version September 16, 2018, 12:04 am UTC
  *
  * @method RamoNegocio findWithoutFail($id, $columns = ['*'])
  * @method RamoNegocio find($id, $columns = ['*'])

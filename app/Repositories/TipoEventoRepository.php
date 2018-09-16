@@ -8,7 +8,7 @@ use InfyOm\Generator\Common\BaseRepository;
 /**
  * Class TipoEventoRepository
  * @package App\Repositories
- * @version September 15, 2018, 4:02 am UTC
+ * @version September 16, 2018, 12:05 am UTC
  *
  * @method TipoEvento findWithoutFail($id, $columns = ['*'])
  * @method TipoEvento find($id, $columns = ['*'])

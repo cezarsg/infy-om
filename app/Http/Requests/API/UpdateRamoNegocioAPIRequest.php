@@ -3,8 +3,9 @@
 namespace App\Http\Requests\API;
 
 use App\Models\RamoNegocio;
+use InfyOm\Generator\Request\APIRequest;
 
-class UpdateRamoNegocioAPIRequest extends MyAPIRequest
+class UpdateRamoNegocioAPIRequest extends APIRequest
 {
     /**
      * Determine if the user is authorized to make this request.

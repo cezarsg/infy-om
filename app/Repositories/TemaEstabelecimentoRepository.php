@@ -8,7 +8,7 @@ use InfyOm\Generator\Common\BaseRepository;
 /**
  * Class TemaEstabelecimentoRepository
  * @package App\Repositories
- * @version September 15, 2018, 4:49 am UTC
+ * @version September 16, 2018, 12:05 am UTC
  *
  * @method TemaEstabelecimento findWithoutFail($id, $columns = ['*'])
  * @method TemaEstabelecimento find($id, $columns = ['*'])
@@ -20,7 +20,6 @@ class TemaEstabelecimentoRepository extends BaseRepository
      * @var array
      */
     protected $fieldSearchable = [
-        'id',
         'descricao',
         'ativo'
     ];
