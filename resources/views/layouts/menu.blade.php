@@ -1,26 +1,15 @@
-
-<li class="{{ Request::is('tipoEventos*') ? 'active' : '' }}">
-    <a href="{!! route('tipoEventos.index') !!}"><i class="fa fa-edit"></i><span>Tipo Eventos</span></a>
-</li>
-
-<li class="{{ Request::is('temaEstabelecimentos*') ? 'active' : '' }}">
-    <a href="{!! route('temaEstabelecimentos.index') !!}"><i class="fa fa-edit"></i><span>Tema Estabelecimentos</span></a>
-</li>
-
-<li class="{{ Request::is('consumidors*') ? 'active' : '' }}">
-    <a href="{!! route('consumidors.index') !!}"><i class="fa fa-edit"></i><span>Consumidors</span></a>
-</li>
+// Anunciantes
 
 <li class="{{ Request::is('anunciantes*') ? 'active' : '' }}">
     <a href="{!! route('anunciantes.index') !!}"><i class="fa fa-edit"></i><span>Anunciantes</span></a>
 </li>
 
-<li class="{{ Request::is('anunciantehistoricos*') ? 'active' : '' }}">
-    <a href="{!! route('anunciantehistoricos.index') !!}"><i class="fa fa-edit"></i><span>Anunciantehistoricos</span></a>
-</li>
-
 <li class="{{ Request::is('anuncianteDiaPromocoes*') ? 'active' : '' }}">
     <a href="{!! route('anuncianteDiaPromocoes.index') !!}"><i class="fa fa-edit"></i><span>Anunciante Dia Promocoes</span></a>
+</li>
+
+<li class="{{ Request::is('anunciantehistoricos*') ? 'active' : '' }}">
+    <a href="{!! route('anunciantehistoricos.index') !!}"><i class="fa fa-edit"></i><span>Anunciantehistoricos</span></a>
 </li>
 
 <li class="{{ Request::is('anuncianteTemaEstabelecimentos*') ? 'active' : '' }}">
@@ -71,9 +60,19 @@
     <a href="{!! route('anuncioVideos.index') !!}"><i class="fa fa-edit"></i><span>Anuncio Videos</span></a>
 </li>
 
-<li class="{{ Request::is('cidades*') ? 'active' : '' }}">
-    <a href="{!! route('cidades.index') !!}"><i class="fa fa-edit"></i><span>Cidades</span></a>
+<li class="{{ Request::is('statusAnunciantes*') ? 'active' : '' }}">
+    <a href="{!! route('statusAnunciantes.index') !!}"><i class="fa fa-edit"></i><span>Status Anunciantes</span></a>
 </li>
+
+
+
+
+// Consumidor
+
+<li class="{{ Request::is('consumidors*') ? 'active' : '' }}">
+    <a href="{!! route('consumidors.index') !!}"><i class="fa fa-edit"></i><span>Consumidors</span></a>
+</li>
+
 
 <li class="{{ Request::is('consumidorHistoricos*') ? 'active' : '' }}">
     <a href="{!! route('consumidorHistoricos.index') !!}"><i class="fa fa-edit"></i><span>Consumidor Historicos</span></a>
@@ -87,13 +86,13 @@
     <a href="{!! route('consumidorPalavraChaves.index') !!}"><i class="fa fa-edit"></i><span>Consumidor Palavra Chaves</span></a>
 </li>
 
-<li class="{{ Request::is('estados*') ? 'active' : '' }}">
-    <a href="{!! route('estados.index') !!}"><i class="fa fa-edit"></i><span>Estados</span></a>
+<li class="{{ Request::is('statusConsumidors*') ? 'active' : '' }}">
+    <a href="{!! route('statusConsumidors.index') !!}"><i class="fa fa-edit"></i><span>Status Consumidors</span></a>
 </li>
 
-<li class="{{ Request::is('estiloMusicals*') ? 'active' : '' }}">
-    <a href="{!! route('estiloMusicals.index') !!}"><i class="fa fa-edit"></i><span>Estilo Musicals</span></a>
-</li>
+
+
+// Eventos
 
 <li class="{{ Request::is('eventos*') ? 'active' : '' }}">
     <a href="{!! route('eventos.index') !!}"><i class="fa fa-edit"></i><span>Eventos</span></a>
@@ -127,34 +126,6 @@
     <a href="{!! route('eventoServicos.index') !!}"><i class="fa fa-edit"></i><span>Evento Servicos</span></a>
 </li>
 
-<li class="{{ Request::is('grauEventos*') ? 'active' : '' }}">
-    <a href="{!! route('grauEventos.index') !!}"><i class="fa fa-edit"></i><span>Grau Eventos</span></a>
-</li>
-
-<li class="{{ Request::is('grauServicos*') ? 'active' : '' }}">
-    <a href="{!! route('grauServicos.index') !!}"><i class="fa fa-edit"></i><span>Grau Servicos</span></a>
-</li>
-
-<li class="{{ Request::is('opcaoCulinarias*') ? 'active' : '' }}">
-    <a href="{!! route('opcaoCulinarias.index') !!}"><i class="fa fa-edit"></i><span>Opcao Culinarias</span></a>
-</li>
-
-<li class="{{ Request::is('orcamentos*') ? 'active' : '' }}">
-    <a href="{!! route('orcamentos.index') !!}"><i class="fa fa-edit"></i><span>Orcamentos</span></a>
-</li>
-
-<li class="{{ Request::is('orcamentoAvulsos*') ? 'active' : '' }}">
-    <a href="{!! route('orcamentoAvulsos.index') !!}"><i class="fa fa-edit"></i><span>Orcamento Avulsos</span></a>
-</li>
-
-<li class="{{ Request::is('orcamentoItems*') ? 'active' : '' }}">
-    <a href="{!! route('orcamentoItems.index') !!}"><i class="fa fa-edit"></i><span>Orcamento Items</span></a>
-</li>
-
-<li class="{{ Request::is('orcamentoMensagens*') ? 'active' : '' }}">
-    <a href="{!! route('orcamentoMensagens.index') !!}"><i class="fa fa-edit"></i><span>Orcamento Mensagens</span></a>
-</li>
-
 <li class="{{ Request::is('paginaEventos*') ? 'active' : '' }}">
     <a href="{!! route('paginaEventos.index') !!}"><i class="fa fa-edit"></i><span>Pagina Eventos</span></a>
 </li>
@@ -175,6 +146,71 @@
     <a href="{!! route('paginaEventoVideos.index') !!}"><i class="fa fa-edit"></i><span>Pagina Evento Videos</span></a>
 </li>
 
+<li class="{{ Request::is('statusEventos*') ? 'active' : '' }}">
+    <a href="{!! route('statusEventos.index') !!}"><i class="fa fa-edit"></i><span>Status Eventos</span></a>
+</li>
+
+
+
+// Orçamentos
+
+<li class="{{ Request::is('orcamentos*') ? 'active' : '' }}">
+    <a href="{!! route('orcamentos.index') !!}"><i class="fa fa-edit"></i><span>Orcamentos</span></a>
+</li>
+
+<li class="{{ Request::is('orcamentoAvulsos*') ? 'active' : '' }}">
+    <a href="{!! route('orcamentoAvulsos.index') !!}"><i class="fa fa-edit"></i><span>Orcamento Avulsos</span></a>
+</li>
+
+<li class="{{ Request::is('orcamentoItems*') ? 'active' : '' }}">
+    <a href="{!! route('orcamentoItems.index') !!}"><i class="fa fa-edit"></i><span>Orcamento Items</span></a>
+</li>
+
+<li class="{{ Request::is('orcamentoMensagens*') ? 'active' : '' }}">
+    <a href="{!! route('orcamentoMensagens.index') !!}"><i class="fa fa-edit"></i><span>Orcamento Mensagens</span></a>
+</li>
+
+<li class="{{ Request::is('statusOrcamentos*') ? 'active' : '' }}">
+    <a href="{!! route('statusOrcamentos.index') !!}"><i class="fa fa-edit"></i><span>Status Orcamentos</span></a>
+</li>
+
+
+
+
+// Geral
+
+<li class="{{ Request::is('tipoEventos*') ? 'active' : '' }}">
+    <a href="{!! route('tipoEventos.index') !!}"><i class="fa fa-edit"></i><span>Tipo Eventos</span></a>
+</li>
+
+<li class="{{ Request::is('temaEstabelecimentos*') ? 'active' : '' }}">
+    <a href="{!! route('temaEstabelecimentos.index') !!}"><i class="fa fa-edit"></i><span>Tema Estabelecimentos</span></a>
+</li>
+
+<li class="{{ Request::is('cidades*') ? 'active' : '' }}">
+    <a href="{!! route('cidades.index') !!}"><i class="fa fa-edit"></i><span>Cidades</span></a>
+</li>
+
+<li class="{{ Request::is('estados*') ? 'active' : '' }}">
+    <a href="{!! route('estados.index') !!}"><i class="fa fa-edit"></i><span>Estados</span></a>
+</li>
+
+<li class="{{ Request::is('estiloMusicals*') ? 'active' : '' }}">
+    <a href="{!! route('estiloMusicals.index') !!}"><i class="fa fa-edit"></i><span>Estilo Musicals</span></a>
+</li>
+
+<li class="{{ Request::is('grauEventos*') ? 'active' : '' }}">
+    <a href="{!! route('grauEventos.index') !!}"><i class="fa fa-edit"></i><span>Grau Eventos</span></a>
+</li>
+
+<li class="{{ Request::is('grauServicos*') ? 'active' : '' }}">
+    <a href="{!! route('grauServicos.index') !!}"><i class="fa fa-edit"></i><span>Grau Servicos</span></a>
+</li>
+
+<li class="{{ Request::is('opcaoCulinarias*') ? 'active' : '' }}">
+    <a href="{!! route('opcaoCulinarias.index') !!}"><i class="fa fa-edit"></i><span>Opcao Culinarias</span></a>
+</li>
+
 <li class="{{ Request::is('palavrasChaves*') ? 'active' : '' }}">
     <a href="{!! route('palavrasChaves.index') !!}"><i class="fa fa-edit"></i><span>Palavras Chaves</span></a>
 </li>
@@ -191,22 +227,6 @@
     <a href="{!! route('ramoNegocios.index') !!}"><i class="fa fa-edit"></i><span>Ramo Negocios</span></a>
 </li>
 
-<li class="{{ Request::is('statusAnunciantes*') ? 'active' : '' }}">
-    <a href="{!! route('statusAnunciantes.index') !!}"><i class="fa fa-edit"></i><span>Status Anunciantes</span></a>
-</li>
-
-<li class="{{ Request::is('statusConsumidors*') ? 'active' : '' }}">
-    <a href="{!! route('statusConsumidors.index') !!}"><i class="fa fa-edit"></i><span>Status Consumidors</span></a>
-</li>
-
-<li class="{{ Request::is('statusEventos*') ? 'active' : '' }}">
-    <a href="{!! route('statusEventos.index') !!}"><i class="fa fa-edit"></i><span>Status Eventos</span></a>
-</li>
-
-<li class="{{ Request::is('statusOrcamentos*') ? 'active' : '' }}">
-    <a href="{!! route('statusOrcamentos.index') !!}"><i class="fa fa-edit"></i><span>Status Orcamentos</span></a>
-</li>
-
 <li class="{{ Request::is('temaEstabelecimentos*') ? 'active' : '' }}">
     <a href="{!! route('temaEstabelecimentos.index') !!}"><i class="fa fa-edit"></i><span>Tema Estabelecimentos</span></a>
 </li>
@@ -214,4 +234,3 @@
 <li class="{{ Request::is('tipoEventos*') ? 'active' : '' }}">
     <a href="{!! route('tipoEventos.index') !!}"><i class="fa fa-edit"></i><span>Tipo Eventos</span></a>
 </li>
-
