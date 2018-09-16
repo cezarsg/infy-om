@@ -1,8 +1,7 @@
 <table class="table table-responsive" id="temaEstabelecimentos-table">
     <thead>
         <tr>
-            <th>Id</th>
-        <th>Descricao</th>
+            <th>Descricao</th>
         <th>Ativo</th>
             <th colspan="3">Action</th>
         </tr>
@@ -10,7 +9,6 @@
     <tbody>
     @foreach($temaEstabelecimentos as $temaEstabelecimento)
         <tr>
-            <td>{!! $temaEstabelecimento->id !!}</td>
             <td>{!! $temaEstabelecimento->descricao !!}</td>
             <td>{!! $temaEstabelecimento->ativo !!}</td>
             <td>

@@ -30,7 +30,7 @@ class RamoNegocioController extends AppBaseController
     public function index(Request $request)
     {
         $this->ramoNegocioRepository->pushCriteria(new RequestCriteria($request));
-        $ramoNegocios = $this->ramoNegocioRepository->all();
+        $ramoNegocios = $this->ramoNegocioRepository->paginate(10);
 
         return view('ramo_negocios.index')
             ->with('ramoNegocios', $ramoNegocios);

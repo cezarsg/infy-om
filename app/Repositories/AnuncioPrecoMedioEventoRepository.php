@@ -8,7 +8,7 @@ use InfyOm\Generator\Common\BaseRepository;
 /**
  * Class AnuncioPrecoMedioEventoRepository
  * @package App\Repositories
- * @version September 16, 2018, 12:00 am UTC
+ * @version September 16, 2018, 12:09 am UTC
  *
  * @method AnuncioPrecoMedioEvento findWithoutFail($id, $columns = ['*'])
  * @method AnuncioPrecoMedioEvento find($id, $columns = ['*'])

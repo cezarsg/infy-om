@@ -30,7 +30,7 @@ class TemaEstabelecimentoController extends AppBaseController
     public function index(Request $request)
     {
         $this->temaEstabelecimentoRepository->pushCriteria(new RequestCriteria($request));
-        $temaEstabelecimentos = $this->temaEstabelecimentoRepository->all();
+        $temaEstabelecimentos = $this->temaEstabelecimentoRepository->paginate(10);
 
         return view('tema_estabelecimentos.index')
             ->with('temaEstabelecimentos', $temaEstabelecimentos);

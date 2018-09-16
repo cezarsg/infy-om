@@ -8,7 +8,7 @@ use InfyOm\Generator\Common\BaseRepository;
 /**
  * Class EventoPalavrasChaveRepository
  * @package App\Repositories
- * @version September 16, 2018, 12:02 am UTC
+ * @version September 16, 2018, 12:10 am UTC
  *
  * @method EventoPalavrasChave findWithoutFail($id, $columns = ['*'])
  * @method EventoPalavrasChave find($id, $columns = ['*'])

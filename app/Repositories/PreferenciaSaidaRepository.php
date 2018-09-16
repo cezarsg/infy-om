@@ -8,7 +8,7 @@ use InfyOm\Generator\Common\BaseRepository;
 /**
  * Class PreferenciaSaidaRepository
  * @package App\Repositories
- * @version September 16, 2018, 12:04 am UTC
+ * @version September 16, 2018, 12:12 am UTC
  *
  * @method PreferenciaSaida findWithoutFail($id, $columns = ['*'])
  * @method PreferenciaSaida find($id, $columns = ['*'])

@@ -8,7 +8,7 @@ use InfyOm\Generator\Common\BaseRepository;
 /**
  * Class StatusEventoRepository
  * @package App\Repositories
- * @version September 16, 2018, 12:05 am UTC
+ * @version September 16, 2018, 12:14 am UTC
  *
  * @method StatusEvento findWithoutFail($id, $columns = ['*'])
  * @method StatusEvento find($id, $columns = ['*'])

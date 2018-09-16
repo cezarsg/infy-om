@@ -8,7 +8,7 @@ use InfyOm\Generator\Common\BaseRepository;
 /**
  * Class EstadoRepository
  * @package App\Repositories
- * @version September 16, 2018, 12:02 am UTC
+ * @version September 16, 2018, 12:09 am UTC
  *
  * @method Estado findWithoutFail($id, $columns = ['*'])
  * @method Estado find($id, $columns = ['*'])

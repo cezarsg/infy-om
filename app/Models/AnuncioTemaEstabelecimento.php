@@ -8,7 +8,7 @@ use Illuminate\Database\Eloquent\SoftDeletes;
 /**
  * Class AnuncioTemaEstabelecimento
  * @package App\Models
- * @version September 16, 2018, 12:01 am UTC
+ * @version September 16, 2018, 12:09 am UTC
  *
  * @property \App\Models\Anuncio anuncio
  * @property \App\Models\Temaestabelecimento temaestabelecimento

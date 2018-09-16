@@ -8,7 +8,7 @@ use InfyOm\Generator\Common\BaseRepository;
 /**
  * Class OrcamentoAvulsoRepository
  * @package App\Repositories
- * @version September 16, 2018, 12:03 am UTC
+ * @version September 16, 2018, 12:11 am UTC
  *
  * @method OrcamentoAvulso findWithoutFail($id, $columns = ['*'])
  * @method OrcamentoAvulso find($id, $columns = ['*'])

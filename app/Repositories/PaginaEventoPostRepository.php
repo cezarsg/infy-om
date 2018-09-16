@@ -8,7 +8,7 @@ use InfyOm\Generator\Common\BaseRepository;
 /**
  * Class PaginaEventoPostRepository
  * @package App\Repositories
- * @version September 16, 2018, 12:04 am UTC
+ * @version September 16, 2018, 12:12 am UTC
  *
  * @method PaginaEventoPost findWithoutFail($id, $columns = ['*'])
  * @method PaginaEventoPost find($id, $columns = ['*'])

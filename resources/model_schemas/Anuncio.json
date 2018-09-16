@@ -1,0 +1,263 @@
+[
+    {
+        "name": "id",
+        "dbType": "bigInteger,true",
+        "htmlType": null,
+        "validations": null,
+        "searchable": false,
+        "fillable": false,
+        "primary": true,
+        "inForm": false,
+        "inIndex": false
+    },
+    {
+        "name": "idanunciante",
+        "dbType": "bigInteger,false",
+        "htmlType": null,
+        "validations": null,
+        "searchable": true,
+        "fillable": true,
+        "primary": false,
+        "inForm": true,
+        "inIndex": true
+    },
+    {
+        "name": "dtinclusao",
+        "dbType": "datetime",
+        "htmlType": "date",
+        "validations": null,
+        "searchable": true,
+        "fillable": true,
+        "primary": false,
+        "inForm": true,
+        "inIndex": true
+    },
+    {
+        "name": "dtalteracao",
+        "dbType": "datetime",
+        "htmlType": "date",
+        "validations": null,
+        "searchable": true,
+        "fillable": true,
+        "primary": false,
+        "inForm": true,
+        "inIndex": true
+    },
+    {
+        "name": "idstatus",
+        "dbType": "bigInteger,false",
+        "htmlType": null,
+        "validations": null,
+        "searchable": true,
+        "fillable": true,
+        "primary": false,
+        "inForm": true,
+        "inIndex": true
+    },
+    {
+        "name": "idramonegocio",
+        "dbType": "bigInteger,false",
+        "htmlType": null,
+        "validations": null,
+        "searchable": true,
+        "fillable": true,
+        "primary": false,
+        "inForm": true,
+        "inIndex": true
+    },
+    {
+        "name": "estabelecimentoproprio",
+        "dbType": "string",
+        "htmlType": "text",
+        "validations": null,
+        "searchable": true,
+        "fillable": true,
+        "primary": false,
+        "inForm": true,
+        "inIndex": true
+    },
+    {
+        "name": "qtdemaximapessoasporevento",
+        "dbType": "integer,false",
+        "htmlType": null,
+        "validations": null,
+        "searchable": true,
+        "fillable": true,
+        "primary": false,
+        "inForm": true,
+        "inIndex": true
+    },
+    {
+        "name": "informacoesimportantes",
+        "dbType": "string",
+        "htmlType": "text",
+        "validations": null,
+        "searchable": true,
+        "fillable": true,
+        "primary": false,
+        "inForm": true,
+        "inIndex": true
+    },
+    {
+        "name": "fotodestaquecaminho",
+        "dbType": "string",
+        "htmlType": "text",
+        "validations": null,
+        "searchable": true,
+        "fillable": true,
+        "primary": false,
+        "inForm": true,
+        "inIndex": true
+    },
+    {
+        "name": "score",
+        "dbType": "integer,false",
+        "htmlType": null,
+        "validations": null,
+        "searchable": true,
+        "fillable": true,
+        "primary": false,
+        "inForm": true,
+        "inIndex": true
+    },
+    {
+        "name": "idusuario",
+        "dbType": "bigInteger,false",
+        "htmlType": null,
+        "validations": null,
+        "searchable": true,
+        "fillable": true,
+        "primary": false,
+        "inForm": true,
+        "inIndex": true
+    },
+    {
+        "name": "created_at",
+        "dbType": "datetime",
+        "htmlType": "date",
+        "validations": null,
+        "searchable": false,
+        "fillable": false,
+        "primary": false,
+        "inForm": false,
+        "inIndex": false
+    },
+    {
+        "name": "updated_at",
+        "dbType": "datetime",
+        "htmlType": "date",
+        "validations": null,
+        "searchable": false,
+        "fillable": false,
+        "primary": false,
+        "inForm": false,
+        "inIndex": false
+    },
+    {
+        "name": "deleted_at",
+        "dbType": "datetime",
+        "htmlType": "date",
+        "validations": null,
+        "searchable": false,
+        "fillable": false,
+        "primary": false,
+        "inForm": false,
+        "inIndex": false
+    },
+    {
+        "type": "relation",
+        "relation": "mt1,Anunciante"
+    },
+    {
+        "type": "relation",
+        "relation": "mt1,Usuario"
+    },
+    {
+        "type": "relation",
+        "relation": "mt1,Statusanunciante"
+    },
+    {
+        "type": "relation",
+        "relation": "mt1,Ramonegocio"
+    },
+    {
+        "type": "relation",
+        "relation": "1tm,Anunciantediapromoco"
+    },
+    {
+        "type": "relation",
+        "relation": "mtm,Ramonegocio,anuncianteramonegocio"
+    },
+    {
+        "type": "relation",
+        "relation": "mtm,Temaestabelecimento,anunciantetemaestabelecimento"
+    },
+    {
+        "type": "relation",
+        "relation": "mtm,Tipoevento,anunciantetipoevento"
+    },
+    {
+        "type": "relation",
+        "relation": "1tm,Anuncioabrangenciaatuacao"
+    },
+    {
+        "type": "relation",
+        "relation": "mtm,Usuario,anuncioavaliacao"
+    },
+    {
+        "type": "relation",
+        "relation": "1tm,Anunciodiapromoco"
+    },
+    {
+        "type": "relation",
+        "relation": "1tm,Anunciofoto"
+    },
+    {
+        "type": "relation",
+        "relation": "1tm,Anunciohorarioatendimento"
+    },
+    {
+        "type": "relation",
+        "relation": "mtm,Tipoevento,anuncioprecomedioevento"
+    },
+    {
+        "type": "relation",
+        "relation": "1tm,Anunciopremio"
+    },
+    {
+        "type": "relation",
+        "relation": "mtm,Temaestabelecimento,anunciotemaestabelecimento"
+    },
+    {
+        "type": "relation",
+        "relation": "1tm,Anunciovideo"
+    },
+    {
+        "type": "relation",
+        "relation": "mtm,,consumidoropcaoculinaria"
+    },
+    {
+        "type": "relation",
+        "relation": "mtm,,consumidorpalavrachave"
+    },
+    {
+        "type": "relation",
+        "relation": "mtm,,eventopublicoalvo"
+    },
+    {
+        "type": "relation",
+        "relation": "mtm,,eventoservico"
+    },
+    {
+        "type": "relation",
+        "relation": "1tm,Orcamento"
+    },
+    {
+        "type": "relation",
+        "relation": "1tm,Orcamentoavulso"
+    },
+    {
+        "type": "relation",
+        "relation": "mtm,,orcamentomensagens"
+    }
+]

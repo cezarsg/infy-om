@@ -8,7 +8,7 @@ use InfyOm\Generator\Common\BaseRepository;
 /**
  * Class PaginaEventoFotosRepository
  * @package App\Repositories
- * @version September 16, 2018, 12:04 am UTC
+ * @version September 16, 2018, 12:12 am UTC
  *
  * @method PaginaEventoFotos findWithoutFail($id, $columns = ['*'])
  * @method PaginaEventoFotos find($id, $columns = ['*'])

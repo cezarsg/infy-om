@@ -8,7 +8,7 @@ use InfyOm\Generator\Common\BaseRepository;
 /**
  * Class PalavrasChaveRepository
  * @package App\Repositories
- * @version September 16, 2018, 12:04 am UTC
+ * @version September 16, 2018, 12:12 am UTC
  *
  * @method PalavrasChave findWithoutFail($id, $columns = ['*'])
  * @method PalavrasChave find($id, $columns = ['*'])

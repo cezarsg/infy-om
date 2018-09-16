@@ -8,7 +8,7 @@ use Illuminate\Database\Eloquent\SoftDeletes;
 /**
  * Class EventoHistorico
  * @package App\Models
- * @version September 16, 2018, 12:02 am UTC
+ * @version September 16, 2018, 12:10 am UTC
  *
  * @property \App\Models\Usuario usuario
  * @property \App\Models\Statusevento statusevento

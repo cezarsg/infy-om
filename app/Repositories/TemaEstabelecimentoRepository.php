@@ -8,7 +8,7 @@ use InfyOm\Generator\Common\BaseRepository;
 /**
  * Class TemaEstabelecimentoRepository
  * @package App\Repositories
- * @version September 16, 2018, 12:05 am UTC
+ * @version September 16, 2018, 12:14 am UTC
  *
  * @method TemaEstabelecimento findWithoutFail($id, $columns = ['*'])
  * @method TemaEstabelecimento find($id, $columns = ['*'])

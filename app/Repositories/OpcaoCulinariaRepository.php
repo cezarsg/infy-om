@@ -8,7 +8,7 @@ use InfyOm\Generator\Common\BaseRepository;
 /**
  * Class OpcaoCulinariaRepository
  * @package App\Repositories
- * @version September 16, 2018, 12:03 am UTC
+ * @version September 16, 2018, 12:11 am UTC
  *
  * @method OpcaoCulinaria findWithoutFail($id, $columns = ['*'])
  * @method OpcaoCulinaria find($id, $columns = ['*'])

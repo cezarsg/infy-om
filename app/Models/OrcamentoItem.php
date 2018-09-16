@@ -8,7 +8,7 @@ use Illuminate\Database\Eloquent\SoftDeletes;
 /**
  * Class OrcamentoItem
  * @package App\Models
- * @version September 16, 2018, 12:03 am UTC
+ * @version September 16, 2018, 12:11 am UTC
  *
  * @property \App\Models\Orcamento orcamento
  * @property \Illuminate\Database\Eloquent\Collection anuncianteramonegocio

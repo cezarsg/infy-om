@@ -4,12 +4,6 @@
     <p>{!! $temaEstabelecimento->id !!}</p>
 </div>
 
-<!-- Id Field -->
-<div class="form-group">
-    {!! Form::label('id', 'Id:') !!}
-    <p>{!! $temaEstabelecimento->id !!}</p>
-</div>
-
 <!-- Descricao Field -->
 <div class="form-group">
     {!! Form::label('descricao', 'Descricao:') !!}
@@ -32,5 +26,11 @@
 <div class="form-group">
     {!! Form::label('updated_at', 'Updated At:') !!}
     <p>{!! $temaEstabelecimento->updated_at !!}</p>
+</div>
+
+<!-- Deleted At Field -->
+<div class="form-group">
+    {!! Form::label('deleted_at', 'Deleted At:') !!}
+    <p>{!! $temaEstabelecimento->deleted_at !!}</p>
 </div>
 

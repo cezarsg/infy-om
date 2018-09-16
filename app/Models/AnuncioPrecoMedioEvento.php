@@ -8,7 +8,7 @@ use Illuminate\Database\Eloquent\SoftDeletes;
 /**
  * Class AnuncioPrecoMedioEvento
  * @package App\Models
- * @version September 16, 2018, 12:00 am UTC
+ * @version September 16, 2018, 12:09 am UTC
  *
  * @property \App\Models\Anuncio anuncio
  * @property \App\Models\Tipoevento tipoevento

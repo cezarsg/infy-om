@@ -1,0 +1,138 @@
+[
+    {
+        "name": "quemconvida",
+        "dbType": "string",
+        "htmlType": "text",
+        "validations": null,
+        "searchable": true,
+        "fillable": true,
+        "primary": false,
+        "inForm": true,
+        "inIndex": true
+    },
+    {
+        "name": "titulo",
+        "dbType": "string",
+        "htmlType": "text",
+        "validations": null,
+        "searchable": true,
+        "fillable": true,
+        "primary": false,
+        "inForm": true,
+        "inIndex": true
+    },
+    {
+        "name": "mensagem",
+        "dbType": "string",
+        "htmlType": "text",
+        "validations": null,
+        "searchable": true,
+        "fillable": true,
+        "primary": false,
+        "inForm": true,
+        "inIndex": true
+    },
+    {
+        "name": "fotocaminho",
+        "dbType": "string",
+        "htmlType": "text",
+        "validations": null,
+        "searchable": true,
+        "fillable": true,
+        "primary": false,
+        "inForm": true,
+        "inIndex": true
+    },
+    {
+        "name": "idevento",
+        "dbType": "bigInteger,false",
+        "htmlType": null,
+        "validations": null,
+        "searchable": true,
+        "fillable": true,
+        "primary": false,
+        "inForm": true,
+        "inIndex": true
+    },
+    {
+        "name": "created_at",
+        "dbType": "datetime",
+        "htmlType": "date",
+        "validations": null,
+        "searchable": false,
+        "fillable": false,
+        "primary": false,
+        "inForm": false,
+        "inIndex": false
+    },
+    {
+        "name": "updated_at",
+        "dbType": "datetime",
+        "htmlType": "date",
+        "validations": null,
+        "searchable": false,
+        "fillable": false,
+        "primary": false,
+        "inForm": false,
+        "inIndex": false
+    },
+    {
+        "name": "deleted_at",
+        "dbType": "datetime",
+        "htmlType": "date",
+        "validations": null,
+        "searchable": false,
+        "fillable": false,
+        "primary": false,
+        "inForm": false,
+        "inIndex": false
+    },
+    {
+        "type": "relation",
+        "relation": "mt1,Evento"
+    },
+    {
+        "type": "relation",
+        "relation": "mtm,,anuncianteramonegocio"
+    },
+    {
+        "type": "relation",
+        "relation": "mtm,,anunciantetemaestabelecimento"
+    },
+    {
+        "type": "relation",
+        "relation": "mtm,,anunciantetipoevento"
+    },
+    {
+        "type": "relation",
+        "relation": "mtm,,anuncioavaliacao"
+    },
+    {
+        "type": "relation",
+        "relation": "mtm,,anuncioprecomedioevento"
+    },
+    {
+        "type": "relation",
+        "relation": "mtm,,anunciotemaestabelecimento"
+    },
+    {
+        "type": "relation",
+        "relation": "mtm,,consumidoropcaoculinaria"
+    },
+    {
+        "type": "relation",
+        "relation": "mtm,,consumidorpalavrachave"
+    },
+    {
+        "type": "relation",
+        "relation": "mtm,,eventopublicoalvo"
+    },
+    {
+        "type": "relation",
+        "relation": "mtm,,eventoservico"
+    },
+    {
+        "type": "relation",
+        "relation": "mtm,,orcamentomensagens"
+    }
+]

@@ -8,7 +8,7 @@ use InfyOm\Generator\Common\BaseRepository;
 /**
  * Class OrcamentoMensagensRepository
  * @package App\Repositories
- * @version September 16, 2018, 12:03 am UTC
+ * @version September 16, 2018, 12:11 am UTC
  *
  * @method OrcamentoMensagens findWithoutFail($id, $columns = ['*'])
  * @method OrcamentoMensagens find($id, $columns = ['*'])
